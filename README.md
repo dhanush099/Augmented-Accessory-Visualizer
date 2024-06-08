@@ -14,3 +14,10 @@ The Augmented-Accessory-Visualizer project aims to provide an immersive AR exper
 + 3D Models: Similar models as in Meta Spark.
 + Tap to Change: Allows users to tap on the screen to switch between furniture items. (UI Picker not included)
 + Incomplete Implementation: The Lens Studio version is a work in progress.
+
+# Setup and Installation
+To get started with the Augmented-Accessory-Visualizer, follow these steps:
+
+## Meta Spark
++ Clone the Repository:
+  [Click here](git clone https://github.com/your-username/Augmented-Accessory-Visualizer.git)
