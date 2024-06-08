@@ -10,7 +10,7 @@ The Augmented-Accessory-Visualizer project aims to provide an immersive AR exper
 + UI Picker: Allows users to switch between different furniture items.
 + Interactive Controls: Users can rotate and scale the augmented items to visualize them in their space.
 
-###Lens Studio
+### Lens Studio
 + 3D Models: Similar models as in Meta Spark.
 + Tap to Change: Allows users to tap on the screen to switch between furniture items. (UI Picker not included)
 + Incomplete Implementation: The Lens Studio version is a work in progress.
