@@ -20,4 +20,5 @@ To get started with the Augmented-Accessory-Visualizer, follow these steps:
 
 ## Meta Spark
 + Clone the Repository:
+  <br>
   git clone https://github.com/your-username/Augmented-Accessory-Visualizer.git
