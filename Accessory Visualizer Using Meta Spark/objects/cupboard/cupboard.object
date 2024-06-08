@@ -1,0 +1,90 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "cupboard",
+  "identifier": "master3_d_object_model:6918-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+  "sourceIdentifier": "asset_collection_model:6922-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.6213074922561646,
+  "globalScaleFactor": 1,
+  "height": 1.9500000476837158,
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 1.4991803169250488,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Dark wood dresser",
+      "identifier": "mesh:6905-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "nodeName": "Dark wood dresser",
+      "numberOfFaces": 532,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:6909-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:6907-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:6912-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:6895-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+              "surfaceGroupIdentifier": "6913-b6bacfe4-919e-4d3a-ac69-d2c468b82b22"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface1",
+              "identifier": "surface:6915-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:6903-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+              "surfaceGroupIdentifier": "6916-b6bacfe4-919e-4d3a-ac69-d2c468b82b22"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

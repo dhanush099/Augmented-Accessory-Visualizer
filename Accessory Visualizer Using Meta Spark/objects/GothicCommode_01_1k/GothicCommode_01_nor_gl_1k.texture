@@ -1,0 +1,37 @@
+{
+  "modelName": "dependent_texture_model",
+  "name": "GothicCommode_01_nor_gl_1k",
+  "identifier": "dependent_texture_model:563-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "sourceIdentifier": "asset_collection_model:611-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "alphaPremultiplicationMode": "none",
+  "assetLocator": "b8ecebff78572cece90f015109c55446.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "trilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "originalFileHash": "98f49cd397fc5ee4e95e7c33eef140f9",
+  "originalFileReference": "file_reference_model:619-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "repeat",
+  "vWrapMode": "repeat",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "b8ecebff78572cece90f015109c55446",
+      "colorCount": 130026,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 11.436540990112398,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

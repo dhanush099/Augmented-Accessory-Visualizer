@@ -1,0 +1,1667 @@
+{
+  "modelName": "document",
+  "name": "Effect",
+  "identifier": "document:4-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "id": "280804eb9914e4c0cbfdf74176bf81b3a",
+  "revision": "9544b6bacfe4919e4d3aac69d2c468b82b22",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 175
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 175
+  },
+  "cameraFar": 50,
+  "cameraNear": 0.009999999776482582,
+  "measurementUnit": "meter",
+  "objects": [
+    {
+      "modelName": "assets_config_model",
+      "identifier": "assets_config_model:213-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "categoriesOrder": [
+        "textures",
+        "patch_assets"
+      ]
+    }
+  ],
+  "projectFormatType": "separated_files",
+  "usingPatchesV2": true,
+  "visual_programming": {
+    "sectionFileLocation": "ARVR_Model.patches"
+  },
+  "children": [
+    {
+      "modelName": "textures",
+      "identifier": "textures:10-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "defaultEnvironmentTexture": "environment_texture_model:648-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "children": [
+        {
+          "sectionFileLocation": "textures/1.texture"
+        },
+        {
+          "sectionFileLocation": "textures/2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/3.texture"
+        },
+        {
+          "sectionFileLocation": "textures/4.texture"
+        },
+        {
+          "sectionFileLocation": "textures/5.texture"
+        },
+        {
+          "sectionFileLocation": "textures/6.texture"
+        },
+        {
+          "sectionFileLocation": "objects/GothicCommode_01_1k/GothicCommode_01_diff_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/GothicCommode_01_1k/GothicCommode_01_arm_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/GothicCommode_01_1k/GothicCommode_01_nor_gl_1k.texture"
+        },
+        {
+          "sectionFileLocation": "textures/DiffuseEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/PreviewEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "textures/SpecularEnvironment.texture"
+        },
+        {
+          "modelName": "environment_texture_model",
+          "name": "Default environment texture",
+          "identifier": "environment_texture_model:648-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "diffuseEnvironmentTextureIdentifier": "textures/DiffuseEnvironment.texture",
+          "previewEnvironmentTextureIdentifier": "textures/PreviewEnvironment.texture",
+          "specularEnvironmentTextureIdentifier": "textures/SpecularEnvironment.texture"
+        },
+        {
+          "sectionFileLocation": "objects/modern_arm_chair_01_1k/modern_arm_chair_01_legs_diff_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/modern_arm_chair_01_1k/modern_arm_chair_01_legs_arm_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/modern_arm_chair_01_1k/modern_arm_chair_01_legs_nor_gl_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/modern_arm_chair_01_1k/modern_arm_chair_01_pillow_diff_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/modern_arm_chair_01_1k/modern_arm_chair_01_pillow_arm_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/modern_arm_chair_01_1k/modern_arm_chair_01_pillow_nor_gl_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/plastic_monobloc_chair_01_1k/plastic_monobloc_chair_01_diff_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/plastic_monobloc_chair_01_1k/plastic_monobloc_chair_01_arm_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/plastic_monobloc_chair_01_1k/plastic_monobloc_chair_01_nor_gl_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/potted_plant_04_1k/potted_plant_04_diff_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/potted_plant_04_1k/potted_plant_04_arm_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/potted_plant_04_1k/potted_plant_04_nor_gl_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/round_wooden_table_01_1k/round_wooden_table_01_diff_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/round_wooden_table_01_1k/round_wooden_table_01_arm_1k.texture"
+        },
+        {
+          "sectionFileLocation": "objects/round_wooden_table_01_1k/round_wooden_table_01_nor_gl_1k.texture"
+        },
+        {
+          "sectionFileLocation": "textures/7.texture"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Texture 0.texture"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Texture 1.texture"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Texture 2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Texture 3.texture"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Texture 4.texture"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Texture 5.texture"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Texture 3-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Texture 4-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Texture 5-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Texture 0-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Texture 1-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Texture 2-2.texture"
+        },
+        {
+          "sectionFileLocation": "textures/8.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 0.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 1.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 3.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 4.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 5.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 3-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 4-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 5-2.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 3-3.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 4-3.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 5-3.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 3-4.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 4-4.texture"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Texture 5-4.texture"
+        },
+        {
+          "sectionFileLocation": "objects/cupboard/Texture 0.texture"
+        },
+        {
+          "sectionFileLocation": "objects/cupboard/Texture 1.texture"
+        },
+        {
+          "sectionFileLocation": "objects/cupboard/Texture 2.texture"
+        }
+      ]
+    },
+    {
+      "modelName": "materials",
+      "identifier": "materials:12-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "children": [
+        {
+          "sectionFileLocation": "objects/GothicCommode_01_1k/GothicCommode_01.material"
+        },
+        {
+          "sectionFileLocation": "objects/modern_arm_chair_01_1k/modern_arm_chair_01_legs.material"
+        },
+        {
+          "sectionFileLocation": "objects/modern_arm_chair_01_1k/modern_arm_chair_01_pillow.material"
+        },
+        {
+          "sectionFileLocation": "objects/plastic_monobloc_chair_01_1k/plastic_monobloc_chair_01.material"
+        },
+        {
+          "sectionFileLocation": "objects/potted_plant_04_1k/PottedPlant_04.material"
+        },
+        {
+          "sectionFileLocation": "objects/round_wooden_table_01_1k/round_wooden_table_01.material"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Fabric.001.material"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Oak raw fine wood PBR texture seamless.material"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Oak raw fine wood PBR texture seamless0.material"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/black plastic.material"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/Fabric.003.material"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Leather.001.material"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Wood.material"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Wood.001.material"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Wood.002.material"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/Wood.003.material"
+        },
+        {
+          "sectionFileLocation": "objects/cupboard/oak wood2.material"
+        },
+        {
+          "sectionFileLocation": "objects/cupboard/ALUMINIUM.material"
+        }
+      ]
+    },
+    {
+      "modelName": "prefabs",
+      "identifier": "prefabs:14-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "children": [
+        {
+          "modelName": "gltf",
+          "name": "GothicCommode_01",
+          "identifier": "gltf:571-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "sourceIdentifier": "master3_d_object_model:607-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "assetLocator": "572-80804eb9-914e-4c0c-bfdf-74176bf81b3a.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "GothicCommode_01_door03",
+          "identifier": "gltf:581-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "sourceIdentifier": "master3_d_object_model:607-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "assetLocator": "582-80804eb9-914e-4c0c-bfdf-74176bf81b3a.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "GothicCommode_01_door02",
+          "identifier": "gltf:591-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "sourceIdentifier": "master3_d_object_model:607-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "assetLocator": "592-80804eb9-914e-4c0c-bfdf-74176bf81b3a.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "GothicCommode_01_door01",
+          "identifier": "gltf:601-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "sourceIdentifier": "master3_d_object_model:607-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "assetLocator": "602-80804eb9-914e-4c0c-bfdf-74176bf81b3a.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "modern_arm_chair_01",
+          "identifier": "gltf:888-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "sourceIdentifier": "master3_d_object_model:897-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "assetLocator": "889-80804eb9-914e-4c0c-bfdf-74176bf81b3a.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "plastic_monobloc_chair_01",
+          "identifier": "gltf:955-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "sourceIdentifier": "master3_d_object_model:961-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "assetLocator": "956-80804eb9-914e-4c0c-bfdf-74176bf81b3a.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "potted_plant_04",
+          "identifier": "gltf:1003-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "sourceIdentifier": "master3_d_object_model:1009-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "assetLocator": "1004-80804eb9-914e-4c0c-bfdf-74176bf81b3a.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "round_wooden_table_01",
+          "identifier": "gltf:1053-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "sourceIdentifier": "master3_d_object_model:1069-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "assetLocator": "1054-80804eb9-914e-4c0c-bfdf-74176bf81b3a.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "round_wooden_table_01_bolts",
+          "identifier": "gltf:1063-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "sourceIdentifier": "master3_d_object_model:1069-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "assetLocator": "1064-80804eb9-914e-4c0c-bfdf-74176bf81b3a.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "big blanket",
+          "identifier": "gltf:8212-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:8328-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "8213-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.010",
+          "identifier": "gltf:8222-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:8328-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "8223-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "drawers.001",
+          "identifier": "gltf:8232-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:8328-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "8233-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "front/back",
+          "identifier": "gltf:8242-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:8328-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "8243-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "legs",
+          "identifier": "gltf:8252-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:8328-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "8253-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "matress.001",
+          "identifier": "gltf:8262-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:8328-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "8263-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Plane.008",
+          "identifier": "gltf:8272-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:8328-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "8273-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Plane.010",
+          "identifier": "gltf:8282-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:8328-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "8283-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "sides.001",
+          "identifier": "gltf:8292-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:8328-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "8293-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "storage",
+          "identifier": "gltf:8302-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:8328-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "8303-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "storage.001",
+          "identifier": "gltf:8312-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:8328-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "8313-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "storage.002",
+          "identifier": "gltf:8322-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:8328-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "8323-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube",
+          "identifier": "gltf:10995-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:11043-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "10996-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.001",
+          "identifier": "gltf:11007-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:11043-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "11008-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.002",
+          "identifier": "gltf:11017-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:11043-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "11018-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.003",
+          "identifier": "gltf:11027-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:11043-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "11028-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Cube.004",
+          "identifier": "gltf:11037-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "sourceIdentifier": "master3_d_object_model:11043-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetLocator": "11038-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9.glb",
+          "isExternalAsset": false
+        },
+        {
+          "modelName": "gltf",
+          "name": "Dark wood dresser",
+          "identifier": "gltf:6909-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+          "sourceIdentifier": "master3_d_object_model:6918-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+          "assetLocator": "6910-b6bacfe4-919e-4d3a-ac69-d2c468b82b22.glb",
+          "isExternalAsset": false
+        }
+      ]
+    },
+    {
+      "modelName": "3_d_objects_model",
+      "identifier": "3_d_objects_model:16-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "children": [
+        {
+          "sectionFileLocation": "objects/GothicCommode_01_1k/GothicCommode_01_1k.object"
+        },
+        {
+          "sectionFileLocation": "objects/modern_arm_chair_01_1k/modern_arm_chair_01_1k.object"
+        },
+        {
+          "sectionFileLocation": "objects/plastic_monobloc_chair_01_1k/plastic_monobloc_chair_01_1k.object"
+        },
+        {
+          "sectionFileLocation": "objects/potted_plant_04_1k/potted_plant_04_1k.object"
+        },
+        {
+          "sectionFileLocation": "objects/round_wooden_table_01_1k/round_wooden_table_01_1k.object"
+        },
+        {
+          "sectionFileLocation": "objects/2bed2/2bed2.object"
+        },
+        {
+          "sectionFileLocation": "objects/couch2/couch2.object"
+        },
+        {
+          "sectionFileLocation": "objects/cupboard/cupboard.object"
+        }
+      ]
+    },
+    {
+      "sectionFileLocation": "ARVR_Model.scene"
+    },
+    {
+      "modelName": "layers",
+      "identifier": "layers:20-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "children": [
+        {
+          "modelName": "layer",
+          "name": "layer0",
+          "identifier": "layer:86-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "color": "0xff8c72ca"
+        }
+      ]
+    },
+    {
+      "modelName": "asset_collections_model",
+      "identifier": "asset_collections_model:24-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "children": [
+        {
+          "modelName": "asset_collection_model",
+          "name": "GothicCommode",
+          "identifier": "asset_collection_model:611-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "applicationData": [],
+          "assetDataHash": "491a4bb1c267ecd9f6592c55308a5286",
+          "assetLocator": "objects/GothicCommode_01_1k/GothicCommode_01_1k.gltf",
+          "authoringTool": "Khronos glTF Blender I/O v1.6.16",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "491a4bb1c267ecd9f6592c55308a5286",
+          "textures": [
+            "objects/GothicCommode_01_1k/GothicCommode_01_arm_1k.texture",
+            "objects/GothicCommode_01_1k/GothicCommode_01_diff_1k.texture",
+            "objects/GothicCommode_01_1k/GothicCommode_01_nor_gl_1k.texture"
+          ],
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:609-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "namesForFeatureType": {
+                "Material": [
+                  "GothicCommode_01"
+                ]
+              }
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "GothicCommode_01",
+              "identifier": "file_reference_model:613-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:611-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "4f691c34556ea46dd5bc59833e2d5ae9",
+              "assetLocator": "objects/GothicCommode_01_1k/GothicCommode_01.bin",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "GothicCommode_01_diff_1k",
+              "identifier": "file_reference_model:615-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:611-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "f4a5fb099986a9627f675efe1b77ae10",
+              "assetLocator": "objects/GothicCommode_01_1k/textures/GothicCommode_01_diff_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "GothicCommode_01_arm_1k",
+              "identifier": "file_reference_model:617-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:611-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "b4eacccbd3add26eb3c714ea8585a90d",
+              "assetLocator": "objects/GothicCommode_01_1k/textures/GothicCommode_01_arm_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "GothicCommode_01_nor_gl_1k",
+              "identifier": "file_reference_model:619-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:611-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "98f49cd397fc5ee4e95e7c33eef140f9",
+              "assetLocator": "objects/GothicCommode_01_1k/textures/GothicCommode_01_nor_gl_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "modern_arm_chair",
+          "identifier": "asset_collection_model:901-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "applicationData": [],
+          "assetDataHash": "a5ce303bc2962fe98b733fcdfa5a842b",
+          "assetLocator": "objects/modern_arm_chair_01_1k/modern_arm_chair_01_1k.gltf",
+          "authoringTool": "Khronos glTF Blender I/O v3.3.32",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "a5ce303bc2962fe98b733fcdfa5a842b",
+          "textures": [
+            "objects/modern_arm_chair_01_1k/modern_arm_chair_01_legs_arm_1k.texture",
+            "objects/modern_arm_chair_01_1k/modern_arm_chair_01_legs_diff_1k.texture",
+            "objects/modern_arm_chair_01_1k/modern_arm_chair_01_legs_nor_gl_1k.texture",
+            "objects/modern_arm_chair_01_1k/modern_arm_chair_01_pillow_arm_1k.texture",
+            "objects/modern_arm_chair_01_1k/modern_arm_chair_01_pillow_diff_1k.texture",
+            "objects/modern_arm_chair_01_1k/modern_arm_chair_01_pillow_nor_gl_1k.texture"
+          ],
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:899-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "namesForFeatureType": {
+                "Material": [
+                  "modern_arm_chair_01_legs",
+                  "modern_arm_chair_01_pillow"
+                ]
+              }
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "modern_arm_chair_01",
+              "identifier": "file_reference_model:903-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:901-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "5a8f2ea1c79ea484140e484b2a621670",
+              "assetLocator": "objects/modern_arm_chair_01_1k/modern_arm_chair_01.bin",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "modern_arm_chair_01_pillow_nor_gl_1k",
+              "identifier": "file_reference_model:905-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:901-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "6804f34108fcc755f0c84dd3c638270c",
+              "assetLocator": "objects/modern_arm_chair_01_1k/textures/modern_arm_chair_01_pillow_nor_gl_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "modern_arm_chair_01_legs_diff_1k",
+              "identifier": "file_reference_model:907-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:901-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "778f1897e07ff81b2bc338f3d463ad1f",
+              "assetLocator": "objects/modern_arm_chair_01_1k/textures/modern_arm_chair_01_legs_diff_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "modern_arm_chair_01_legs_arm_1k",
+              "identifier": "file_reference_model:909-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:901-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "9c69cb001df175bddf6d1c2436567fb7",
+              "assetLocator": "objects/modern_arm_chair_01_1k/textures/modern_arm_chair_01_legs_arm_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "modern_arm_chair_01_pillow_diff_1k",
+              "identifier": "file_reference_model:911-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:901-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "2e4f64c633c3cb1656ad3eabdb3f0607",
+              "assetLocator": "objects/modern_arm_chair_01_1k/textures/modern_arm_chair_01_pillow_diff_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "modern_arm_chair_01_legs_nor_gl_1k",
+              "identifier": "file_reference_model:913-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:901-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "7cece7eccf75588af5b5df9b095d2c97",
+              "assetLocator": "objects/modern_arm_chair_01_1k/textures/modern_arm_chair_01_legs_nor_gl_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "modern_arm_chair_01_pillow_arm_1k",
+              "identifier": "file_reference_model:915-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:901-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "772495ddbf26ca3de4b31298f10113b9",
+              "assetLocator": "objects/modern_arm_chair_01_1k/textures/modern_arm_chair_01_pillow_arm_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "plastic_monobloc_chair",
+          "identifier": "asset_collection_model:965-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "applicationData": [],
+          "assetDataHash": "b0ac94e52b406e1815af47d9d84eadb4",
+          "assetLocator": "objects/plastic_monobloc_chair_01_1k/plastic_monobloc_chair_01_1k.gltf",
+          "authoringTool": "Khronos glTF Blender I/O v3.3.32",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "b0ac94e52b406e1815af47d9d84eadb4",
+          "textures": [
+            "objects/plastic_monobloc_chair_01_1k/plastic_monobloc_chair_01_arm_1k.texture",
+            "objects/plastic_monobloc_chair_01_1k/plastic_monobloc_chair_01_diff_1k.texture",
+            "objects/plastic_monobloc_chair_01_1k/plastic_monobloc_chair_01_nor_gl_1k.texture"
+          ],
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:963-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "namesForFeatureType": {
+                "Material": [
+                  "plastic_monobloc_chair_01"
+                ]
+              }
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "plastic_monobloc_chair_01",
+              "identifier": "file_reference_model:967-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:965-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "cff97136a9c4bb57c62937cbb7d33a79",
+              "assetLocator": "objects/plastic_monobloc_chair_01_1k/plastic_monobloc_chair_01.bin",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "plastic_monobloc_chair_01_diff_1k",
+              "identifier": "file_reference_model:969-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:965-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "c36dfe0f38d6ca1632ba426c598e6764",
+              "assetLocator": "objects/plastic_monobloc_chair_01_1k/textures/plastic_monobloc_chair_01_diff_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "plastic_monobloc_chair_01_arm_1k",
+              "identifier": "file_reference_model:971-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:965-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "ce9271797fd8893a6c84f639f952d0b9",
+              "assetLocator": "objects/plastic_monobloc_chair_01_1k/textures/plastic_monobloc_chair_01_arm_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "plastic_monobloc_chair_01_nor_gl_1k",
+              "identifier": "file_reference_model:973-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:965-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "387f81f09c0754416298398277fb2a6d",
+              "assetLocator": "objects/plastic_monobloc_chair_01_1k/textures/plastic_monobloc_chair_01_nor_gl_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "potted_plant",
+          "identifier": "asset_collection_model:1013-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "applicationData": [],
+          "assetDataHash": "5746fa6916e71158459a1b3b02c9401f",
+          "assetLocator": "objects/potted_plant_04_1k/potted_plant_04_1k.gltf",
+          "authoringTool": "Khronos glTF Blender I/O v1.6.16",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "5746fa6916e71158459a1b3b02c9401f",
+          "textures": [
+            "objects/potted_plant_04_1k/potted_plant_04_arm_1k.texture",
+            "objects/potted_plant_04_1k/potted_plant_04_diff_1k.texture",
+            "objects/potted_plant_04_1k/potted_plant_04_nor_gl_1k.texture"
+          ],
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:1011-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "namesForFeatureType": {
+                "Material": [
+                  "PottedPlant_04"
+                ]
+              }
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "potted_plant_04",
+              "identifier": "file_reference_model:1015-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:1013-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "24ef3d5c8094123966425ac3201f58d8",
+              "assetLocator": "objects/potted_plant_04_1k/potted_plant_04.bin",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "potted_plant_04_diff_1k",
+              "identifier": "file_reference_model:1017-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:1013-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "907f3c44a41a967e36fc5e17c1a440fc",
+              "assetLocator": "objects/potted_plant_04_1k/textures/potted_plant_04_diff_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "potted_plant_04_nor_gl_1k",
+              "identifier": "file_reference_model:1019-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:1013-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "bcbc5cffb34389e4c389028b3b6a4e8c",
+              "assetLocator": "objects/potted_plant_04_1k/textures/potted_plant_04_nor_gl_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "potted_plant_04_arm_1k",
+              "identifier": "file_reference_model:1021-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:1013-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "50be1c79130d5437f015a9e29abed5de",
+              "assetLocator": "objects/potted_plant_04_1k/textures/potted_plant_04_arm_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "round_wooden_table",
+          "identifier": "asset_collection_model:1073-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "applicationData": [],
+          "assetDataHash": "9a2ad4a55a88ee7493a842026d944abc",
+          "assetLocator": "objects/round_wooden_table_01_1k/round_wooden_table_01_1k.gltf",
+          "authoringTool": "Khronos glTF Blender I/O v1.6.16",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "9a2ad4a55a88ee7493a842026d944abc",
+          "textures": [
+            "objects/round_wooden_table_01_1k/round_wooden_table_01_arm_1k.texture",
+            "objects/round_wooden_table_01_1k/round_wooden_table_01_diff_1k.texture",
+            "objects/round_wooden_table_01_1k/round_wooden_table_01_nor_gl_1k.texture"
+          ],
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:1071-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "namesForFeatureType": {
+                "Material": [
+                  "round_wooden_table_01"
+                ]
+              }
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "round_wooden_table_01",
+              "identifier": "file_reference_model:1075-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:1073-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "b907851fab9d7552cef8a12858acc869",
+              "assetLocator": "objects/round_wooden_table_01_1k/round_wooden_table_01.bin",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "round_wooden_table_01_diff_1k",
+              "identifier": "file_reference_model:1077-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:1073-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "4be9c5bc6b73f42541fb461c19169c56",
+              "assetLocator": "objects/round_wooden_table_01_1k/textures/round_wooden_table_01_diff_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "round_wooden_table_01_arm_1k",
+              "identifier": "file_reference_model:1079-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:1073-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "2dc3f86e564b407141c6c216760d8bb6",
+              "assetLocator": "objects/round_wooden_table_01_1k/textures/round_wooden_table_01_arm_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            },
+            {
+              "modelName": "file_reference_model",
+              "name": "round_wooden_table_01_nor_gl_1k",
+              "identifier": "file_reference_model:1081-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "sourceIdentifier": "asset_collection_model:1073-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "assetDataHash": "3d0f124a495db5eeca16db53c188729d",
+              "assetLocator": "objects/round_wooden_table_01_1k/textures/round_wooden_table_01_nor_gl_1k.jpg",
+              "excludeDuringExport": true,
+              "isExternalAsset": true
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "2bed2",
+          "identifier": "asset_collection_model:8332-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetDataHash": "cbb097e4b350f88253bbba2100cbb4e3",
+          "assetLocator": "objects/2bed2/2bed2.glb",
+          "authoringTool": "Khronos glTF Blender I/O v4.0.44",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "cbb097e4b350f88253bbba2100cbb4e3",
+          "textures": [
+            "objects/2bed2/Texture 0-2.texture",
+            "objects/2bed2/Texture 0.texture",
+            "objects/2bed2/Texture 1-2.texture",
+            "objects/2bed2/Texture 1.texture",
+            "objects/2bed2/Texture 2-2.texture",
+            "objects/2bed2/Texture 2.texture",
+            "objects/2bed2/Texture 3-2.texture",
+            "objects/2bed2/Texture 3.texture",
+            "objects/2bed2/Texture 4-2.texture",
+            "objects/2bed2/Texture 4.texture",
+            "objects/2bed2/Texture 5-2.texture",
+            "objects/2bed2/Texture 5.texture"
+          ],
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:8330-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+              "namesForFeatureType": {
+                "Material": [
+                  "Oak raw fine wood PBR texture seamless",
+                  "Fabric.001",
+                  "black plastic",
+                  "Fabric.003"
+                ],
+                "Texture": [
+                  "Roughness",
+                  "Diffuse",
+                  "Fabric036_2K_Color",
+                  "Fabric036_2K_Roughness",
+                  "Fabric036_2K_Normal",
+                  "Normal"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "couch2",
+          "identifier": "asset_collection_model:11047-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "assetDataHash": "4716855652eee19c8b3b07565d5aa11a",
+          "assetLocator": "objects/couch2/couch2.glb",
+          "authoringTool": "Khronos glTF Blender I/O v4.0.44",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "4716855652eee19c8b3b07565d5aa11a",
+          "textures": [
+            "objects/couch2/Texture 0.texture",
+            "objects/couch2/Texture 1.texture",
+            "objects/couch2/Texture 2.texture",
+            "objects/couch2/Texture 3-2.texture",
+            "objects/couch2/Texture 3-3.texture",
+            "objects/couch2/Texture 3-4.texture",
+            "objects/couch2/Texture 3.texture",
+            "objects/couch2/Texture 4-2.texture",
+            "objects/couch2/Texture 4-3.texture",
+            "objects/couch2/Texture 4-4.texture",
+            "objects/couch2/Texture 4.texture",
+            "objects/couch2/Texture 5-2.texture",
+            "objects/couch2/Texture 5-3.texture",
+            "objects/couch2/Texture 5-4.texture",
+            "objects/couch2/Texture 5.texture"
+          ],
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:11045-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+              "namesForFeatureType": {
+                "Material": [
+                  "Wood.003",
+                  "Leather.001",
+                  "Wood.002",
+                  "Wood",
+                  "Wood.001"
+                ],
+                "Texture": [
+                  "Wood063_2K_Normal",
+                  "Alligator_Brown_Leather_Base_Color",
+                  "Alligator_Brown_Leather_Roughness",
+                  "Alligator_Brown_Leather_Normal",
+                  "Wood063_2K_Color",
+                  "Wood063_2K_Roughness"
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "modelName": "asset_collection_model",
+          "name": "cupboard",
+          "identifier": "asset_collection_model:6922-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+          "assetDataHash": "34a4c8d1f6499fdd839239dc83129588",
+          "assetLocator": "objects/cupboard/cupboard.glb",
+          "authoringTool": "Khronos glTF Blender I/O v4.0.44",
+          "excludeDuringExport": true,
+          "isExternalAsset": true,
+          "master3DInstanceSourceHash": "34a4c8d1f6499fdd839239dc83129588",
+          "textures": [
+            "objects/cupboard/Texture 0.texture",
+            "objects/cupboard/Texture 1.texture",
+            "objects/cupboard/Texture 2.texture"
+          ],
+          "children": [
+            {
+              "modelName": "unsupportedFeatures",
+              "name": "unsupportedFeatures0",
+              "identifier": "unsupportedFeatures:6920-b6bacfe4-919e-4d3a-ac69-d2c468b82b22",
+              "namesForFeatureType": {
+                "Material": [
+                  "oak wood2",
+                  "ALUMINIUM"
+                ],
+                "Texture": [
+                  "WoodFineDark004_COL_3K",
+                  "WoodFineDark004_REFL_3K",
+                  "WoodFineDark004_NRM_3K"
+                ]
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "patch_graphs_model",
+      "identifier": "patch_graphs_model:30-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+    },
+    {
+      "modelName": "patch_assets_model",
+      "identifier": "patch_assets_model:32-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "children": [
+        {
+          "modelName": "patch_data_base_model",
+          "name": "MoveRotateScale Interactions",
+          "identifier": "patch_data_base_model:74630-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "assetDataHash": "313f140123d6e6c219c9eaf90602b943",
+          "assetLocator": "patches/MoveRotateScale Interactions.arp",
+          "isExternalAsset": true
+        }
+      ]
+    },
+    {
+      "modelName": "scripts_model",
+      "identifier": "scripts_model:38-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "children": [
+        {
+          "modelName": "script_bridging_variables_model",
+          "identifier": "script_bridging_variables_model:40-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+        }
+      ]
+    },
+    {
+      "modelName": "bundled_packages_model",
+      "identifier": "bundled_packages_model:46-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+    },
+    {
+      "modelName": "exportConfig",
+      "identifier": "exportConfig:50-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "children": [
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:624-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:626-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:628-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:633-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:635-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:637-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:642-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "accuracy": "best"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:644-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "accuracy": "best",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:646-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "accuracy": "best",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8103-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8105-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8107-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8109-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8111-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8113-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8115-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8117-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8119-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8121-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8123-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8125-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8127-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8129-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8131-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8133-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8135-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:8137-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2357-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2359-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:2361-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "method": "fastest"
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:9894-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "method": "fastest",
+          "targetFormat": 1
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:9896-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "method": "fastest",
+          "targetFormat": 2
+        },
+        {
+          "modelName": "textureExportConfig",
+          "identifier": "textureExportConfig:9898-0196a4d3-68aa-4f6c-b2a8-8fac891af1a9",
+          "method": "fastest"
+        }
+      ]
+    },
+    {
+      "modelName": "manifest",
+      "identifier": "manifest:52-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "additionalEnabledChanges": null,
+      "assistantAppIDs": [
+        "2320137961422959"
+      ],
+      "assistantClientToken": null,
+      "assistantIncludeInDevelopmentArtifacts": false,
+      "assistantQuickTestEnabled": true,
+      "assistantStorageEnabled": true,
+      "assistantUseWit": false,
+      "audioEnableAudioGraphComponents": false,
+      "audioEnableAudioTransformationsApi": false,
+      "bodyTrackingMinVersion": 101,
+      "cameraControlDefaultCameraFacing": "unspecified",
+      "dynamicTextAltitude": false,
+      "dynamicTextDate": false,
+      "dynamicTextLocation": false,
+      "dynamicTextTranslation": false,
+      "dynamicTextWeather": false,
+      "effectDisablesAudioPreview": false,
+      "effectDisablesMicrophone": false,
+      "effectForceAsyncScripting": false,
+      "effectForcesSynchronousScripting": false,
+      "effectHasAmbientAudio": false,
+      "effectHasAudioGraphApi": false,
+      "effectHasTriggeredAudio": false,
+      "effectImageAntiAliasingEdgeSharpness": 0.5,
+      "effectImageAntiAliasingEdgeThreshold": 0.5,
+      "effectImageAntiAliasingTechnique": "fxaa",
+      "effectPbrClearcoatMaterialExtension": false,
+      "effectPbrIorMaterialExtension": false,
+      "effectPbrSheenMaterialExtension": false,
+      "effectPbrSpecularMaterialExtension": false,
+      "effectPbrTransmissionMaterialExtension": false,
+      "effectRecordingFromMic": false,
+      "effectUses4KTextures": false,
+      "effectUsesAheadOfTimeShaders": false,
+      "effectUsesAnimationPlaybackController": false,
+      "effectUsesAnimationScriptingModule": false,
+      "effectUsesAppLauncher": false,
+      "effectUsesAssistant": false,
+      "effectUsesAudio": false,
+      "effectUsesAudioLegacyMicFork": false,
+      "effectUsesAudioMixer": false,
+      "effectUsesAudioSpatialEmitter": false,
+      "effectUsesAudioTimestamps": false,
+      "effectUsesAugmentControl": false,
+      "effectUsesAugmentGrouping": false,
+      "effectUsesAugmentSizeControl": false,
+      "effectUsesAutomaticAlphaSort": false,
+      "effectUsesAutomaticInstructions": true,
+      "effectUsesBlockModulesConfigExtras": false,
+      "effectUsesBlocks": false,
+      "effectUsesBlocksDownloadable": false,
+      "effectUsesBlocksScripting": false,
+      "effectUsesBodyTracking": false,
+      "effectUsesBodyTracking2DKeyPoints": false,
+      "effectUsesBoundingBoxScripting": false,
+      "effectUsesBoundingBoxUtilities": false,
+      "effectUsesCameraControl": false,
+      "effectUsesCameraInfoScriptingModule": false,
+      "effectUsesCameraShare": false,
+      "effectUsesComponentEvaluation": true,
+      "effectUsesComposedLocally": false,
+      "effectUsesComposedMaterial": false,
+      "effectUsesControllers": false,
+      "effectUsesCustomEngineSDK": false,
+      "effectUsesCustomFonts": false,
+      "effectUsesCustomMaterial": false,
+      "effectUsesCustomMaterialAndShaderCodeAsset": false,
+      "effectUsesCustomPipeline": false,
+      "effectUsesDSP": false,
+      "effectUsesDate": false,
+      "effectUsesDebugPatch": false,
+      "effectUsesDeltaTime": false,
+      "effectUsesDepth": false,
+      "effectUsesDepthData": false,
+      "effectUsesDepthShaderRead": false,
+      "effectUsesDeviceMotion": false,
+      "effectUsesDiagnosticsScriptingModule": false,
+      "effectUsesDirectionalLightEstimation": false,
+      "effectUsesDspAudioAnalyzer": false,
+      "effectUsesDspBitCrusher": false,
+      "effectUsesDspCompressor": false,
+      "effectUsesDspDelay": false,
+      "effectUsesDspDenoiser": false,
+      "effectUsesDspDistortion": false,
+      "effectUsesDspEnergyMeter": false,
+      "effectUsesDspModulator": false,
+      "effectUsesDspParametricEqualizer": false,
+      "effectUsesDspPitchShifter": false,
+      "effectUsesDspReverb": false,
+      "effectUsesDspVocoder": false,
+      "effectUsesDynamicCapabilities": false,
+      "effectUsesDynamicInstructions": false,
+      "effectUsesDynamicScriptProperties": false,
+      "effectUsesDynamicText": false,
+      "effectUsesEmbeddedVideo": false,
+      "effectUsesEnvironmentTexturePatch": false,
+      "effectUsesExperienceControl": false,
+      "effectUsesExternalBlocks": false,
+      "effectUsesExternalFonts": false,
+      "effectUsesExternalMusicSelection": false,
+      "effectUsesExternalTextures": false,
+      "effectUsesExternalTexturesAudio": false,
+      "effectUsesExternalVideo": false,
+      "effectUsesExternalVideoStream": false,
+      "effectUsesFBA": false,
+      "effectUsesFaceDistortion": false,
+      "effectUsesFaceExpression52Blendshapes": false,
+      "effectUsesFaceExpressionExperimental": false,
+      "effectUsesFaceExpressionFitting": false,
+      "effectUsesFaceExtraction": false,
+      "effectUsesFaceTracker": false,
+      "effectUsesFaceTracker3D": false,
+      "effectUsesFaceTracker96": false,
+      "effectUsesFaceTrackingScripting2D": false,
+      "effectUsesFaceTrueScale": false,
+      "effectUsesFaceWave": false,
+      "effectUsesFacialExpressionRecognition": false,
+      "effectUsesFacialGestureRecognition": false,
+      "effectUsesFieldOfView": false,
+      "effectUsesFingerTracking": false,
+      "effectUsesFonts": false,
+      "effectUsesFormFactor": false,
+      "effectUsesFrameBrightness": false,
+      "effectUsesGalleryPicker": false,
+      "effectUsesGenericML": false,
+      "effectUsesGlobalTransform": false,
+      "effectUsesGlslEs300Features": false,
+      "effectUsesGltfPbrShader": false,
+      "effectUsesGraphQL": false,
+      "effectUsesHairSegmentation": false,
+      "effectUsesHalfFloatRenderPass": false,
+      "effectUsesHandGestureKeypoints": false,
+      "effectUsesHandTracker": false,
+      "effectUsesHapticFeedback": false,
+      "effectUsesHeadsetInfo": false,
+      "effectUsesHmdNetworkingAPI": false,
+      "effectUsesI18n": false,
+      "effectUsesIdTracker": false,
+      "effectUsesImageAntiAliasing": false,
+      "effectUsesImageAssets": false,
+      "effectUsesImageBasedLighting": true,
+      "effectUsesInstruction": false,
+      "effectUsesIntent": false,
+      "effectUsesInterEffectLinking": false,
+      "effectUsesInternalScriptingAPI": false,
+      "effectUsesIrisTracking": false,
+      "effectUsesJavaScript": false,
+      "effectUsesJavaScriptRuntimeForPatches": false,
+      "effectUsesJavaScriptScripting": false,
+      "effectUsesJavaScriptShaders": false,
+      "effectUsesJavascriptToPatchesBridging": false,
+      "effectUsesLayers": false,
+      "effectUsesLocale": false,
+      "effectUsesLocation": false,
+      "effectUsesLocationAirportData": false,
+      "effectUsesMaterialsScriptingModule": false,
+      "effectUsesMaxParticipants": false,
+      "effectUsesMicrophone": false,
+      "effectUsesMicrophoneV2": false,
+      "effectUsesMovingTargetTracking": false,
+      "effectUsesMultipeer": false,
+      "effectUsesMultipeerMessaging": false,
+      "effectUsesMultiplane": false,
+      "effectUsesMultiplayer": false,
+      "effectUsesMultipleRenderTargets": false,
+      "effectUsesMusic": false,
+      "effectUsesNativeUIControl": true,
+      "effectUsesNativeUIControlEditableText": false,
+      "effectUsesNativeUIControlEditableTextExitCB": false,
+      "effectUsesNativeUIControlPicker": true,
+      "effectUsesNativeUIControlPickerRemoteImages": false,
+      "effectUsesNativeUIControlRawTextInput": false,
+      "effectUsesNativeUIControlSlider": false,
+      "effectUsesNativeUIControlSliderTypeColor": false,
+      "effectUsesNetworking": false,
+      "effectUsesNetworkingScriptAPI": false,
+      "effectUsesObjectCapture": false,
+      "effectUsesObjectTracking": false,
+      "effectUsesOpticalFlow": false,
+      "effectUsesOpusCodec": false,
+      "effectUsesOverlayOutput": false,
+      "effectUsesPBRMaterial": true,
+      "effectUsesParticipant": false,
+      "effectUsesParticleSystem": false,
+      "effectUsesPeerOutput": false,
+      "effectUsesPeerVideoStream": false,
+      "effectUsesPermissions": false,
+      "effectUsesPersistence": false,
+      "effectUsesPersistenceCaptureScope": false,
+      "effectUsesPersistenceSharedScope": false,
+      "effectUsesPersonalization": false,
+      "effectUsesPhysics": false,
+      "effectUsesPhysicsSync": false,
+      "effectUsesPlaneNormal": false,
+      "effectUsesPlaneTrackerTrackTextureAPI": false,
+      "effectUsesPlatformEvents": false,
+      "effectUsesPlatformEventsDocumentScoped": false,
+      "effectUsesPlatformFunctions": false,
+      "effectUsesPlatformTextures": false,
+      "effectUsesPlaybackInfo": false,
+      "effectUsesPortalPose": false,
+      "effectUsesPreciseLocation": false,
+      "effectUsesPrefabScriptingModule": false,
+      "effectUsesPreviewCaptureOutputs": false,
+      "effectUsesRGBCameraTexture": false,
+      "effectUsesRTRMapping": false,
+      "effectUsesRandomScriptingModule": false,
+      "effectUsesReactiveScriptingModule": false,
+      "effectUsesRealScaleEstimation": false,
+      "effectUsesRealScaleEstimationWithFallback": false,
+      "effectUsesRecognition": false,
+      "effectUsesRecognitionTracking": false,
+      "effectUsesRecordedSignalsForSamplers": false,
+      "effectUsesRemote3DModels": false,
+      "effectUsesRemoteMaps": false,
+      "effectUsesRenderPasses": false,
+      "effectUsesRenderSettingsHigh": false,
+      "effectUsesRingTryOn": false,
+      "effectUsesRotateVector": false,
+      "effectUsesSceneDepth": false,
+      "effectUsesSceneDepthWithFallback": false,
+      "effectUsesSceneObjectTags": false,
+      "effectUsesSceneRenderPassResolutionAspectRatio": false,
+      "effectUsesSceneScriptingModule": false,
+      "effectUsesScriptAnalytics": false,
+      "effectUsesScriptingDynamicInstantiation": false,
+      "effectUsesSegmentation": false,
+      "effectUsesSegmentationType": false,
+      "effectUsesShaderCode": false,
+      "effectUsesShaderPicking": false,
+      "effectUsesShadows": false,
+      "effectUsesSkinSegmentation": false,
+      "effectUsesSkinSmoothing": false,
+      "effectUsesSpatialGesture": false,
+      "effectUsesSpatialHandTracking": false,
+      "effectUsesSplitScreen": false,
+      "effectUsesStaticTargetTracking": false,
+      "effectUsesStyleTransfer": false,
+      "effectUsesSupportedOrientations": false,
+      "effectUsesSvg": false,
+      "effectUsesSyncDomApis": false,
+      "effectUsesTargetRecognition": false,
+      "effectUsesTextAssets": false,
+      "effectUsesTextCaptions": false,
+      "effectUsesTextExtrusion": false,
+      "effectUsesTexturesScriptingModule": false,
+      "effectUsesTimeScriptingModule": false,
+      "effectUsesToasterTracking": false,
+      "effectUsesTouchGestures": true,
+      "effectUsesTwoDimensionalText": false,
+      "effectUsesTypeScript": false,
+      "effectUsesUiCore": false,
+      "effectUsesUiPlanarBackend": false,
+      "effectUsesUnifiedTargetTracking": false,
+      "effectUsesUnitsScriptingModule": false,
+      "effectUsesVariadicMath": true,
+      "effectUsesVertexTextureFetch": false,
+      "effectUsesVisualShaders": true,
+      "effectUsesVisualShadersSdf": false,
+      "effectUsesVoiceInteraction": false,
+      "effectUsesWarpPostProcessor": false,
+      "effectUsesWarpPreProcessor": false,
+      "effectUsesWarpSmoothing": true,
+      "effectUsesWeather": false,
+      "effectUsesWebPTexture": false,
+      "effectUsesWebsockets": false,
+      "effectUsesWorldTracker": true,
+      "effectUsesWorldTrackerEnvironmentLight": false,
+      "effectUsesWorldTrackerJSAPI": false,
+      "effectUsesWorldTrackingWorldMap": false,
+      "effectUsesWorldUnderstanding": false,
+      "effectUsesWorldUnderstandingV2": false,
+      "effectUsesWriteableSignalSource": false,
+      "engineSDKVersion": "175.0",
+      "externalTexturesWhitelistedDomains": null,
+      "faceExpressionFittingMinVersion": 15,
+      "faceExpressionFittingRTRRetargetingMinVersion": 1,
+      "faceTrackerIsEnabled": false,
+      "faceTrackerMaxFaces": 1,
+      "faceTrackerMinVersion": 10,
+      "facewaveMinVersion": 1,
+      "hairSegmentationMinVersion": 1,
+      "handTrackerMaxHands": 2,
+      "handTrackerMinVersion": 3,
+      "instructionFindAnImageBackCameraEnabled": true,
+      "instructionFindAnImageFrontCameraEnabled": true,
+      "instructionFindBodyBackCameraEnabled": true,
+      "instructionFindBodyFrontCameraEnabled": true,
+      "instructionFindFaceBackCameraEnabled": true,
+      "instructionFindFaceFrontCameraEnabled": true,
+      "instructionFindHandBackCameraEnabled": true,
+      "instructionFindHandFrontCameraEnabled": true,
+      "instructionFindPersonBackCameraEnabled": true,
+      "instructionFindPersonFrontCameraEnabled": true,
+      "instructionTokens": null,
+      "interEffectLinkingEffectIds": null,
+      "internalScriptingAPIDelay": false,
+      "internalScriptingAPIDeprecatedParticles": false,
+      "internalScriptingAPIEventStream": false,
+      "internalScriptingAPIExperimentalCameraInfo": false,
+      "internalScriptingAPIGlobalTransform": false,
+      "manuallyEnabledItemsIds": [
+        "effectUsesNativeUIControl",
+        "effectUsesNativeUIControlPicker"
+      ],
+      "maxParticipantsCount": 0,
+      "multiclassSegmentationMinVersion": 3004,
+      "objectTrackerMaxObjects": 1,
+      "optionalCapabilityItemIds": [],
+      "persistenceWhitelistedKeys": null,
+      "personalizationSpecialOccasion": "none",
+      "platformUsage": {},
+      "recognitionMinVersion": 2,
+      "ringTryOnMinVersion": 1,
+      "sceneDepthMinVersion": 1,
+      "sceneDepthWithFallbackMinVersion": 1,
+      "segmentationMinVersion": 2,
+      "shaderPostProcessor": false,
+      "shaderPreProcessor": false,
+      "supportsLandscape": false,
+      "supportsPortrait": true,
+      "supportsWildcardDomainsWhitelisting": false,
+      "targetRecognitionMinVersion": 2,
+      "touchGesturesSupportsLongPress": false,
+      "touchGesturesSupportsPan": true,
+      "touchGesturesSupportsPinch": true,
+      "touchGesturesSupportsRawTouch": false,
+      "touchGesturesSupportsRotate": true,
+      "touchGesturesSupportsTap": false,
+      "whitelistedDomains": null,
+      "witAppId": null,
+      "witClientToken": null,
+      "worldTrackerBackCameraEnabled": true,
+      "worldTrackerFrontCameraEnabled": true,
+      "worldTrackerMode": "plane",
+      "worldTrackerUsesFaceTracker": false
+    },
+    {
+      "modelName": "target",
+      "identifier": "target:62-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "targetPlatforms": [
+        "instagram"
+      ],
+      "targetUseCases": [
+        "STORIES"
+      ]
+    },
+    {
+      "modelName": "scripting_config_model",
+      "identifier": "scripting_config_model:72-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "forceStrictModeCompilation": true
+    },
+    {
+      "modelName": "graphicsConfig",
+      "identifier": "graphicsConfig:92-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+    },
+    {
+      "modelName": "videos_model",
+      "identifier": "videos_model:193-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+    }
+  ]
+}

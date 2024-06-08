@@ -1,0 +1,92 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "modern_arm_chair_01_1k",
+  "identifier": "master3_d_object_model:897-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "sourceIdentifier": "asset_collection_model:901-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.98656165599823,
+  "globalScaleFactor": 1,
+  "height": 1.0228520631790161,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.8203444480895996,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "modern_arm_chair_01",
+      "identifier": "mesh:884-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "modern_arm_chair_01",
+      "numberOfFaces": 8916,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:888-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:886-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:891-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:868-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "surfaceGroupIdentifier": "892-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+            },
+            {
+              "modelName": "surface",
+              "name": "surface1",
+              "identifier": "surface:894-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:876-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "surfaceGroupIdentifier": "895-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

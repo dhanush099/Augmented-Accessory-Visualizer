@@ -1,0 +1,37 @@
+{
+  "modelName": "dependent_texture_model",
+  "name": "modern_arm_chair_01_pillow_diff_1k",
+  "identifier": "dependent_texture_model:878-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "sourceIdentifier": "asset_collection_model:901-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "alphaPremultiplicationMode": "none",
+  "assetLocator": "851c1b73e9a6ca9388cde0bf951e5b8e.png",
+  "colorEncoding": "srgb",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "trilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "originalFileHash": "2e4f64c633c3cb1656ad3eabdb3f0607",
+  "originalFileReference": "file_reference_model:911-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "repeat",
+  "vWrapMode": "repeat",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "851c1b73e9a6ca9388cde0bf951e5b8e",
+      "colorCount": 338,
+      "detectedAlphaChannel": "no_alpha",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 5.184422672031312,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

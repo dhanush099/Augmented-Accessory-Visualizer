@@ -1,0 +1,234 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "GothicCommode_01_1k",
+  "identifier": "master3_d_object_model:607-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "sourceIdentifier": "asset_collection_model:611-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.5806594491004944,
+  "globalScaleFactor": 1,
+  "height": 1.2120425701141357,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 1.2014026641845703,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "GothicCommode_01",
+      "identifier": "mesh:567-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "GothicCommode_01",
+      "numberOfFaces": 1518,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:571-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:569-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:574-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:557-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "surfaceGroupIdentifier": "575-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "mesh",
+      "name": "GothicCommode_01_door03",
+      "identifier": "mesh:577-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "GothicCommode_01_door03",
+      "numberOfFaces": 628,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:581-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": -0.0014149999478831887,
+        "y": 0.35649898648262024,
+        "z": 0.2807460129261017
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:579-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:584-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:557-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "surfaceGroupIdentifier": "585-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "mesh",
+      "name": "GothicCommode_01_door02",
+      "identifier": "mesh:587-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "GothicCommode_01_door02",
+      "numberOfFaces": 628,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:591-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": -0.001487000030465424,
+        "y": 0.6670479774475098,
+        "z": 0.261231005191803
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:589-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:594-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:557-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "surfaceGroupIdentifier": "595-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "mesh",
+      "name": "GothicCommode_01_door01",
+      "identifier": "mesh:597-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "GothicCommode_01_door01",
+      "numberOfFaces": 1123,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:601-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": -0.0009110000100918114,
+        "y": 0.9869080185890198,
+        "z": 0.27112799882888794
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:599-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:604-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:557-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "surfaceGroupIdentifier": "605-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

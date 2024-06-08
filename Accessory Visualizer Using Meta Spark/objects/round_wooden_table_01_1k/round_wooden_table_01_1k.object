@@ -1,0 +1,134 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "round_wooden_table_01_1k",
+  "identifier": "master3_d_object_model:1069-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "sourceIdentifier": "asset_collection_model:1073-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 1.3993489742279053,
+  "globalScaleFactor": 1,
+  "height": 1.005021333694458,
+  "hidden": false,
+  "layerIdentifier": "layer0",
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 1.3993489742279053,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "round_wooden_table_01",
+      "identifier": "mesh:1049-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "round_wooden_table_01",
+      "numberOfFaces": 7928,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:1053-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:1051-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:1056-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1039-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "surfaceGroupIdentifier": "1057-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "modelName": "mesh",
+      "name": "round_wooden_table_01_bolts",
+      "identifier": "mesh:1059-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "nodeName": "round_wooden_table_01_bolts",
+      "numberOfFaces": 712,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:1063-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:1061-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:1066-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:1039-80804eb9-914e-4c0c-bfdf-74176bf81b3a",
+              "surfaceGroupIdentifier": "1067-80804eb9-914e-4c0c-bfdf-74176bf81b3a"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
