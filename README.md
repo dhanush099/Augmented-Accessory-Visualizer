@@ -24,3 +24,18 @@ To get started with the Augmented-Accessory-Visualizer, follow these steps:
 ## Lens Studio:
 + Unzip the Accessory Visualizer Using Lens Studio file(Lens Studio Project).
 + Open Lens Studio and load the project from the unzipped directory.
+
+## Usage
+### Meta Spark Usage:
++ Open the project in Meta Spark Studio.
++ Use the UI Picker to select different furniture items.
++ Interact with the models by rotating and scaling them to fit in your environment.
+### Lens Studio Usage:
++ Open the project in Lens Studio.
++ Tap on the screen to change between different furniture items.
+  
+## Challenges and Solutions
+During the development process, several challenges were encountered, particularly in accurate plane tracking within Meta Spark Studio. This led to the exploration of Lens Studio as an alternative, which offered a different interaction functionality but remains incomplete.
+
+## Report Paper
+For a detailed explanation of the project, including the methodology, technical implementation, challenges, and solutions, refer to the report paper included in the repository.
