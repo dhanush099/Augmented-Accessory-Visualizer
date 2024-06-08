@@ -18,7 +18,9 @@ The Augmented-Accessory-Visualizer project aims to provide an immersive AR exper
 # Setup and Installation
 To get started with the Augmented-Accessory-Visualizer, follow these steps:
 
-## Meta Spark
-+ Clone the Repository:
-  <br>
-  git clone https://github.com/your-username/Augmented-Accessory-Visualizer.git
+## Meta Spark:
++ Navigate to the Meta Spark Directory(Accessory Visualizer Using Meta Spark).
++ Open Meta Spark Studio and load the project files.
+## Lens Studio:
++ Unzip the Accessory Visualizer Using Lens Studio file(Lens Studio Project).
++ Open Lens Studio and load the project from the unzipped directory.
